@@ -283,6 +283,13 @@ importers:
       ts-pattern:
         specifier: ^5.0.1
         version: 5.0.1
+    devDependencies:
+      '@vitest/coverage-c8':
+        specifier: ^0.31.4
+        version: 0.31.4(vitest@0.31.4)
+      vitest:
+        specifier: ^0.31.4
+        version: 0.31.4
 
   packages/core:
     dependencies:

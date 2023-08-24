@@ -1,5 +1,11 @@
 # @kuma-ui/sheet
 
+## 1.2.0
+
+### Minor Changes
+
+- [#293](https://github.com/kuma-ui/kuma-ui/pull/293) [`638d61d`](https://github.com/kuma-ui/kuma-ui/commit/638d61df0a6dd355d8bb4847e5752877a9895d71) Thanks [@yukukotani](https://github.com/yukukotani)! - Add support for z-index token
+
 ## 1.1.0
 
 ### Minor Changes

@@ -33,7 +33,7 @@ jobs:
       - name: Publish dev snapshot
         if: steps.changesets.outputs.published != 'true'
         run: |
-          cat ~/.npmrc
+          cat /home/runner/work/_temp/.npmrc
           git checkout main
           pnpm changeset version --snapshot dev
           pnpm changeset publish --tag dev

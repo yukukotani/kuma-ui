@@ -43,6 +43,8 @@ export type UserTheme = {
       baseStyle?: any;
       // eslint-disable-next-line @typescript-eslint/no-explicit-any -- FIXME
       variants?: { [key: string]: any };
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any -- FIXME
+      defaultProps?: { [key: string]: any };
     };
   };
 };
@@ -93,6 +95,8 @@ export class Theme {
               [key: string]: any;
             }
           | undefined;
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any -- FIXME
+        defaultProps?: { [key: string]: any };
       }
     | undefined {
     return this._userTheme.components?.[componentName] || {};
